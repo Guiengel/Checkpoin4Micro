@@ -20,4 +20,4 @@ jobs:
                 uses: docker/build-push-action@v6
                 with:
                     push: true
-                    tags: guiengel/checkpoin4micro:latest
+                    tags: ${{ vars.DOCKER_USER }}/checkpoint4:latest
