@@ -16,4 +16,4 @@ jobs:
             -   name: Build da Aplicação
                 run: mvn clean package -DskipTests
             -   name: Execução de Testes Unitários
-                run: mvn -B test -Dtest='*Test,!*ApplicationTests' -Dsurefire.failIfNoTests=false
+                run: mvn test
